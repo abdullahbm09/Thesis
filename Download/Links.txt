@@ -1,0 +1,15 @@
+https://ethereum.stackexchange.com/questions/53077/storing-structured-data-in-private-blockchain
+
+https://www.quora.com/How-can-blockchain-be-used-as-a-database-to-store-data
+
+https://medium.com/@mycoralhealth/learn-to-securely-share-files-on-the-blockchain-with-ipfs-219ee47df54c
+
+https://medium.com/coinmonks/blockchain-for-beginners-what-is-blockchain-519db8c6677a
+
+https://github.com/LukasMarx
+
+https://hackernoon.com/getting-deep-into-ethereum-how-data-is-stored-in-ethereum-e3f669d96033
+
+https://ethereum.stackexchange.com/questions/37657/signing-a-raw-transaction-on-contract-function/38965?newreg=cfb7ee5c7b074d079185872c09ba4fe5
+
+https://medium.com/coinmonks/the-case-for-a-slim-blockchain-and-where-to-store-personal-data-under-gdpr-37b1a7891717

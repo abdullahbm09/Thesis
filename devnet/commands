@@ -1,0 +1,8 @@
+bootnode -nodekey boot.key -verbosity 9 -addr :30310
+
+
+geth --datadir node1/ --syncmode 'full' --port 30311 --rpc --rpcaddr 'localhost' --rpcport 8501 --rpcapi 'personal,db,eth,net,web3,txpool,miner' --bootnodes 'enode://9fc5872e83ab14c367f6643e6fe1189212c67104beb3e93d491eb32fe1a485b6e902a5fbb6f7c122ca7216c91e3586a06294736ae68fba9608d86f92ee3a7cdd@127.0.0.1:30310' --networkid 1515 --gasprice '1' -unlock '0x0b8977f1826b46dd0ccc38618648ab44d1d72fd6' --password node1/password.txt --mine
+
+
+
+geth --datadir node2/ --syncmode 'full' --port 30312 --rpc --rpcaddr 'localhost' --rpcport 8502 --rpcapi 'personal,db,eth,net,web3,txpool,miner' --bootnodes 'enode://9fc5872e83ab14c367f6643e6fe1189212c67104beb3e93d491eb32fe1a485b6e902a5fbb6f7c122ca7216c91e3586a06294736ae68fba9608d86f92ee3a7cdd@127.0.0.1:30310' --networkid 1515 --gasprice '0' --unlock '0xe8daa46876ad200c2519ce2dcdb9752ee0300455' --password node2/password.txt --mine

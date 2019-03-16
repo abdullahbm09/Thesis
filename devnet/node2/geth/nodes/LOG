@@ -1,0 +1,70 @@
+=============== Nov 8, 2018 (PKT) ===============
+13:14:24.774933 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:14:24.846956 db@open opening
+13:14:24.849079 version@stat F·[] S·0B[] Sc·[]
+13:14:24.915102 db@janitor F·2 G·0
+13:14:24.915197 db@open done T·68.182795ms
+13:18:40.100356 db@close closing
+13:18:40.100635 db@close done T·270.956µs
+=============== Nov 8, 2018 (PKT) ===============
+13:40:18.474947 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:40:18.475453 version@stat F·[] S·0B[] Sc·[]
+13:40:18.475496 db@open opening
+13:40:18.475691 journal@recovery F·1
+13:40:18.482588 journal@recovery recovering @1
+13:40:18.535715 memdb@flush created L0@2 N·1457 S·39KiB "n:\x00..ver,v1390":"version,v1"
+13:40:18.542568 version@stat F·[1] S·39KiB[39KiB] Sc·[0.25]
+13:40:18.648855 db@janitor F·3 G·0
+13:40:18.648944 db@open done T·173.425225ms
+13:42:51.910543 db@close closing
+13:42:51.910999 db@close done T·449.287µs
+=============== Nov 8, 2018 (PKT) ===============
+13:43:22.832695 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:43:22.833104 version@stat F·[1] S·39KiB[39KiB] Sc·[0.25]
+13:43:22.833133 db@open opening
+13:43:22.833261 journal@recovery F·1
+13:43:22.838396 journal@recovery recovering @3
+13:43:22.885675 memdb@flush created L0@5 N·728 S·22KiB "n:\x04..ail,v2177":"n:\xfe..ing,v1760"
+13:43:22.892079 version@stat F·[2] S·62KiB[62KiB] Sc·[0.50]
+13:43:22.988114 db@janitor F·4 G·0
+13:43:22.988209 db@open done T·155.054972ms
+13:43:23.003545 table@compaction L0·2 -> L1·0 S·62KiB Q·2187
+13:43:23.054691 table@build created L1@8 N·1288 S·47KiB "n:\x00..ver,v1390":"version,v1"
+13:43:23.054786 version@stat F·[0 1] S·47KiB[0B 47KiB] Sc·[0.00 0.00]
+13:43:23.121969 table@compaction committed F-1 S-14KiB Ke·0 D·897 T·118.344029ms
+13:43:23.122079 table@remove removed @5
+13:43:23.122156 table@remove removed @2
+=============== Nov 9, 2018 (PKT) ===============
+09:28:03.081651 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:28:03.088710 version@stat F·[0 1] S·47KiB[0B 47KiB] Sc·[0.00 0.00]
+09:28:03.088755 db@open opening
+09:28:03.088954 journal@recovery F·1
+09:28:03.096545 journal@recovery recovering @6
+09:28:03.161765 memdb@flush created L0@9 N·370 S·14KiB "n:\x00..ing,v2454":"n:\xeb..ong,v2374"
+09:28:03.170335 version@stat F·[1 1] S·61KiB[14KiB 47KiB] Sc·[0.25 0.00]
+09:28:03.275035 db@janitor F·4 G·0
+09:28:03.275115 db@open done T·186.334467ms
+09:28:03.297748 table@compaction L0·1 -> L1·1 S·61KiB Q·2558
+09:28:03.375178 table@build created L1@12 N·1542 S·56KiB "n:\x00..ing,v2454":"version,v1"
+09:28:03.375382 version@stat F·[0 1] S·56KiB[0B 56KiB] Sc·[0.00 0.00]
+09:28:03.519892 table@compaction committed F-1 S-5KiB Ke·0 D·116 T·222.036675ms
+09:28:03.519980 table@remove removed @9
+09:28:03.520016 table@remove removed @8
+09:28:54.333475 db@close closing
+09:28:54.333638 db@close done T·158.954µs
+=============== Nov 9, 2018 (PKT) ===============
+09:30:31.234865 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:30:31.235497 version@stat F·[0 1] S·56KiB[0B 56KiB] Sc·[0.00 0.00]
+09:30:31.235549 db@open opening
+09:30:31.235763 journal@recovery F·1
+09:30:31.240466 journal@recovery recovering @10
+09:30:31.292494 memdb@flush created L0@13 N·303 S·12KiB "n:\x00..ing,v2712":"n:\xfe..ong,v2810"
+09:30:31.300268 version@stat F·[1 1] S·69KiB[12KiB 56KiB] Sc·[0.25 0.00]
+09:30:31.394389 db@janitor F·4 G·0
+09:30:31.394474 db@open done T·158.897989ms
+09:30:31.412304 table@compaction L0·1 -> L1·1 S·69KiB Q·2862
+09:30:31.451123 table@build created L1@16 N·1779 S·64KiB "n:\x00..ing,v2454":"version,v1"
+09:30:31.451208 version@stat F·[0 1] S·64KiB[0B 64KiB] Sc·[0.00 0.00]
+09:30:31.496031 table@compaction committed F-1 S-4KiB Ke·0 D·66 T·83.656364ms
+09:30:31.496157 table@remove removed @13
+09:30:31.496203 table@remove removed @12
